@@ -110,13 +110,13 @@ textarea {
 }
 
 .backgroundfull {
-    background-image: url(http://4kwallpapershd.com/wp-content/uploads/2016/07/3d-Dna-High-Resolution-Photos.jpg);
+    background-image: url(https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     text-align: center;
     color: white;
-    height: 50vh;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,6 +125,16 @@ textarea {
 .w100{
   width: 100%;
 }
+
+.red{
+  color:red;
+}
+
+.articlealt , .articlealt:hover , .articlealt:visited{
+  color: black;
+  text-decoration: none;
+}
+
 /* ==========================================================================
         COMMON
        ========================================================================== */
@@ -353,9 +363,6 @@ footer a:hover i {
                                    http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
-    }
-    a, a:visited {
-        text-decoration: underline;
     }
     a[href]:after {
         content: " (" attr(href) ")";
