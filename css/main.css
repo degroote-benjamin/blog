@@ -108,6 +108,19 @@ textarea {
   padding: 0;
 }
 
+.backgroundfull {
+    background-image: url(http://4kwallpapershd.com/wp-content/uploads/2016/07/3d-Dna-High-Resolution-Photos.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    text-align: center;
+    color: white;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* ==========================================================================
         COMMON
        ========================================================================== */
