@@ -21,9 +21,8 @@ window.onload = date('date');
 var compt = document.getElementById("compteur");
 
 function augmenter() {
-  compt.textContent = Number(compt.textContent) + 1;
+  compt.textContent = parseInt(compt.textContent) + 1;
 }
-
 setInterval(augmenter, 1000);
 
 
