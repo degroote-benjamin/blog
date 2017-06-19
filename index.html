@@ -39,19 +39,20 @@
     <header>
 
 
-        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <nav class="navbar navbar-toggleable-md navbar-light bg-inverse">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="nav nav-pills nav-fill container">
+            <a class="navbar-brand" href="#">Navbar</a>
+
+            <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto flex-row-reverse w100">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Blog</a>
+                        <a class="nav-link" href="#">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
-                </ul>
             </div>
         </nav>
 
@@ -119,36 +120,32 @@
         <section class="col-12">
             <div class="container">
 
-                <div class="card-deck">
-                    <div class="card">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <figure class="m-0">
+                            <img src="https://media.licdn.com/media/AAEAAQAAAAAAAANbAAAAJDE5NjBkNDk1LTY3ZGQtNDA0NS04YTJiLTdkNmU3NjZiNjI3Mg.png" alt="1" class="col-12 px-0">
+                            <p class="alt"></p>
+                            <figcaption>
+                            </figcaption>
+                        </figure>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <figure class="m-0">
+                            <img src="https://media.licdn.com/media/AAEAAQAAAAAAAANbAAAAJDE5NjBkNDk1LTY3ZGQtNDA0NS04YTJiLTdkNmU3NjZiNjI3Mg.png" alt="2" class="col-12 px-0">
+                            <p class="alt "></p>
+                            <figcaption>
+                            </figcaption>
+                        </figure>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-block">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <figure class="m-0">
+                            <img src="https://media.licdn.com/media/AAEAAQAAAAAAAANbAAAAJDE5NjBkNDk1LTY3ZGQtNDA0NS04YTJiLTdkNmU3NjZiNjI3Mg.png" alt="3" class="col-12 px-0">
+                            <p class="alt"></p>
+                            <figcaption>
+                            </figcaption>
+                        </figure>
                     </div>
                 </div>
 
@@ -186,9 +183,9 @@
                 <a href="https://fr.linkedin.com/"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
             </div>
         </div>
-        <section class="col-12">
-            <span id="date"></span>
-          <h6>Vous êtes sur le site depuis <span id="compteur">0</span></h6>
+        <section class="col-12 text-right py-2">
+            <p id="date" class="my-1"></p>
+            <h6 class="my-2">Vous êtes sur le site depuis <span id="compteur">0</span> secondes</h6>
         </section>
     </footer>
 
