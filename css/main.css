@@ -166,6 +166,16 @@ footer {
     background-color: #252627;
     color: white;
 }
+
+
+footer i {
+    margin-right: 10px;
+    color: black;
+}
+
+footer a:hover i {
+    color: white;
+}
 /* ==========================================================================
                 FOOTER
                ========================================================================== */
