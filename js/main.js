@@ -7,11 +7,16 @@ function date()
         mois = date.getMonth();
         jour = date.getDate();
         heure = date.getHours();
-        resultat = 'Nous sommes le '+jour+ '/'+mois+'/'+annee +" et il est " + heure + " heure";
+        minute = date.getMinutes();
+        if(minute <10){
+          minute = "0" + minute
+        }
+        resultat = "Nous sommes le "+jour+ "/"+mois+"/"+annee +" et il est " + heure + "h" + minute;
         document.getElementById("date").innerHTML = resultat;
 }
+setInterval(date, 60000);
 
-window.onload = date('date');
+window.onload = date("date");
 
 
 
