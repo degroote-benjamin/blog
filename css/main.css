@@ -135,14 +135,19 @@ textarea {
     text-decoration: none;
 }
 
+.articlealt img {
+    height: 210px;
+}
+
 .grey {
     color: #867D78;
 }
 
-.navbar .navbar-nav .nav-item .nav-link:hover , .navbar .navbar-nav .nav-item .nav-link:visited{
-  text-decoration: underline;
-  color: white;
+.navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav .nav-item .nav-link:visited {
+    text-decoration: underline;
+    color: white;
 }
+
 
 /* ==========================================================================
         COMMON
@@ -162,9 +167,11 @@ textarea {
 }
 
 .navbar-brand img {
-  height: auto;
-  width: 90px;
+    height: auto;
+    width: 90px;
 }
+
+
 /* ==========================================================================
         HEADER
        ========================================================================== */
@@ -174,7 +181,25 @@ textarea {
           MAIN CONTENT
          ========================================================================== */
 
+figcaption {
+    min-height: 200px;
+}
 
+.blue {
+    width: 100%;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 4px;
+    padding: 0.75rem;
+}
+
+.blue:hover{
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+}
 /* ==========================================================================
             MAIN CONTENT
            ========================================================================== */
@@ -229,10 +254,10 @@ footer a:hover i {
     /* ==========================================================================
         HEADER
        ========================================================================== */
-       .navbar-brand img {
-         height: auto;
-         width: 150px;
-       }
+    .navbar-brand img {
+        height: auto;
+        width: 150px;
+    }
     /* ==========================================================================
           HEADER
          ========================================================================== */
