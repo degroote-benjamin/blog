@@ -24,7 +24,7 @@ window.onload = date("date");
 // FONCTION COMPTEUR
 
 var compt = document.getElementById("compteur");
-
+  compt.textContent=0;
 function augmenter() {
   compt.textContent = parseInt(compt.textContent) + 1;
 }
