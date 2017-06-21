@@ -16,7 +16,7 @@ function date()
 }
 setInterval(date, 60000);
 
-window.onload = date("date");
+resultat = date("date");
 
 
 
