@@ -50,3 +50,15 @@ text[i].textContent = "";
 }
 );
 };
+
+
+// CONFIRMATION FORMULAIRE
+
+function confirmation() {
+    var aconfirmer;
+    if (confirm("Confirmer!") == true) {
+        aconfirmer = alert("Vous avez confirmé");
+    } else {
+        aconfirmer = alert("Vous avez annulé");
+    }
+}
