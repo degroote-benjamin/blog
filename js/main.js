@@ -16,7 +16,7 @@ function date()
 }
 setInterval(date, 60000);
 
-resultat = date("date");
+resultat = date();
 
 
 
