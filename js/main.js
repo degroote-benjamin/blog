@@ -62,3 +62,19 @@ function confirmation() {
         aconfirmer = alert("Vous avez annulé");
     }
 }
+
+
+//TABLE INTERACTIVE
+
+var onglet = document.getElementsByClassName("tabs");
+var contenu = document.getElementsByClassName("contenu");
+
+for (let i = 0 ; i < onglet.length ; i++) {
+onglet[i].addEventListener("click", function() {
+  for(let y=0 ; y<contenu.length;y++){
+    contenu[y].style.display="none";
+  }
+  contenu[i].style.display="flex";
+}
+)
+};
