@@ -11,8 +11,8 @@ function date()
         if(minute <10){
           minute = "0" + minute
         }
-        resultat = "Nous sommes le "+jour+ "/"+mois+"/"+annee +" et il est " + heure + "h" + minute;
-        document.getElementById("date").innerHTML = resultat;
+        datecomplete = "Nous sommes le "+jour+ "/"+mois+"/"+annee +" et il est " + heure + "h" + minute;
+        document.getElementById("date").innerHTML = datecomplete;
 }
 setInterval(date, 60000);
 
