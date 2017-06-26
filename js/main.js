@@ -12,7 +12,7 @@ function date()
           minute = "0" + minute
         }
         datecomplete = "Nous sommes le "+jour+ "/"+mois+"/"+annee +" et il est " + heure + "h" + minute;
-        document.getElementById("date").innerHTML = datecomplete;
+        document.getElementById("date").textContent = datecomplete;
 }
 setInterval(date, 60000);
 
